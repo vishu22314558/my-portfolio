@@ -29,8 +29,7 @@ phases:
       # - command
   build:
     commands:
-       command:
-        - echo Nothing to buld 
+      - echo Nothing to buld 
       # - command
   #post_build:
     #commands:
