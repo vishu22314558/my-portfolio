@@ -1,0 +1,51 @@
+version: 0.2
+
+#env:
+  #variables:
+     # key: "value"
+     # key: "value"
+  #parameter-store:
+     # key: "value"
+     # key: "value"
+  #git-credential-helper: yes
+
+phases:
+  install:
+      - echo Installing Mocha...
+      - npm install -g mocha
+    #If you use the Ubuntu standard image 2.0 or later, you must specify runtime-versions.
+    #If you specify runtime-versions and use an image other than Ubuntu standard image 2.0, the build fails.
+    #runtime-versions:
+      # name: version
+      # name: version
+    #commands:
+      # - command
+      # - command
+  #pre_build:
+    #commands:
+      # - command
+      # - command
+  build:
+    commands:
+       command:
+        - echo Nothing to buld 
+      # - command
+  #post_build:
+    #commands:
+      # - command
+      # - command
+artifacts:
+  files:
+    - index.html
+    - favicon.ico
+    - VishvaJeet-Singh.pdf
+    - styles/*
+    - images/*
+    # - location
+    # - location
+  #name: $(date +%Y-%m-%d)
+  #discard-paths: yes
+  #base-directory: location
+#cache:
+  #paths:
+    # - paths
