@@ -41,7 +41,12 @@ artifacts:
     - img/*
     - js/*
     - scss/*
-    - vendor/*
+    - vendor/bootstrap/css/*
+    - vendor/bootstrap/js/*
+    - vendor/fontawsome-free/css/*
+    - vendor/fontawsome-free/webfonts/*
+    - vendor/jquery/*
+    - vendor/jquery-easing/*
     - gulpfile.js
     - index.html
     # - location
