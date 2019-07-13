@@ -1,6 +1,10 @@
+import json
 import boto3
 from botocore.client import Config
 import zipfile
+import mimetypes
+import io
+from io import BytesIO
 
 s3 = boto3.resource('s3', config=Config(signature_version='s3v4'))
 
