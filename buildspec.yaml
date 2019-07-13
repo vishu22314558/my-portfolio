@@ -43,8 +43,8 @@ artifacts:
     - scss/*
     - vendor/bootstrap/css/*
     - vendor/bootstrap/js/*
-    - vendor/fontawsome-free/css/*
-    - vendor/fontawsome-free/webfonts/*
+    - vendor/fontawesome-free/css/*
+    - vendor/fontawesome-free/webfonts/*
     - vendor/jquery/*
     - vendor/jquery-easing/*
     - gulpfile.js
