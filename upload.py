@@ -12,6 +12,9 @@ def lambda_handler(event, context):
     
     #Create S3 object 
     try:
+        job = event.get("CodePipeline.job")
+
+        
         s3 = boto3.resource('s3', config = Config(signature_version = 's3v4'))
         sns = boto3.resource('sns')
 
